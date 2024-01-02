@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLFguFvITrCucBxjGE-n0PgHBfa4oBws5_gw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.mdiv{
+    height: 80vh;
+    width: 50%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 25%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+.divimg{
+    height: 70%;
+    width: 100%;
+    background-image: url(sunset-riverside.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+}
+.divimg h2{
+    color: white;
+    margin-left: 15px;
+    padding-top: 15px;
+    width: 50%;
+}
+.divimg h2 span{
+    color: rgba(255, 255, 255, 0.473);
+    backdrop-filter: blur(30px);
+}
+.loc-city{
+    margin-left: 80%;
+}
+.location{
+    background-image: url(locatin.png);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.weather_app{
+    height: 30%;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    backdrop-filter: blur(30px);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.ip{
+    height: 40px;
+    width: 50%;
+    margin-top: 1px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 25%;
+
+}
+.ip input{
+    border: none;
+    outline: none;
+    flex: 1;
+    height: 40px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+.ip button{
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    position: absolute;
+    right: 0px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    cursor: pointer;
+}
+.search{
+    height: 25px;
+}
+.ab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info .weather_img{
+    height: 30px;
+    width: 30px;
+    margin: 0px 80px 0px;
+
+}
+#temp{
+    font-size: 30px;
+    font-family: Arial black;
+}
+#city{
+    font-size: 15px;
+    font-family: Arial black;
+    color: black;
+}
+.humi{
+    height: 30px;
+    width: 30px;
+}
+#humid,#win{
+    font-size: 25px;
+    font-family: Arial black;
+}
+#humditiy-info,#wind-info{
+    font-size: 15px;
+    font-family: Arial black;
+    color: black;
+}
+.info2{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wind,.humditiy{
+    margin: 0px 60px 0px;
+}
